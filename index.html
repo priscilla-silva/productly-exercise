@@ -24,10 +24,10 @@
     </div>
      <nav class="top-nav">
          <ul>
-             <li class="main-menu">Product</li>
-             <li class="main-menu">Customers</li>
-             <li class="main-menu">Pricing</li>
-             <li class="main-menu">Resources</li>
+           <li class="main-menu"> <a href="#superpowers">Product</a></li>
+           <li class="main-menu"><a href="#professionals">Customers</a></li>
+           <li class="main-menu"><a href="#managers">Pricing</a></li>
+           <li class="main-menu"><a href="#marketers">Resources</a></li>
          </ul>
          <div>
          <button class="btn_white">Sign In</button>
@@ -35,6 +35,7 @@
         </div>
      </nav>
     </header> 
+    
     <section class="card__one">
         <div class="card__one__content">
             <h1>The Design Thinking superpowers</h1>
@@ -54,7 +55,8 @@
             <img src="/images/jumping.png" alt="Three people jumping">
         </div>
     </section>
-    <section class="card__two">
+
+    <section class="card__two" id="superpowers">
         <h2 class="card__two__title">We design tools to unveil your superpowers</h2>
         <div class="card__two__content">
         <!--Use flexbox for the following divs-->
@@ -82,7 +84,7 @@
     <div class="btn__orange__two"><button class="btn_orange">SIGN UP NOW</button></div>
     </section>
     <!--Design Professionals-->
-    <section class="card__one">
+    <section class="card__one" id="professionals">
         <div class="card__one__content">
             <h4>Effortless Validation for</h4>
             <h2>Design Professionals</h2>
@@ -106,7 +108,7 @@
         </div>
     </section>
     <!--Product managers-->
-    <section class="card__one">
+    <section class="card__one" id="managers">
         <div class="card__one__image">
             <img src="/images/managers.png" alt="A man on his laptop">
         </div>
@@ -132,7 +134,7 @@
         </div>
     </section>
     <!--Marketers-->
-    <section class="card__one">
+    <section class="card__one" id="marketers">
         <div class="card__one__content">
             <h4>Optimisation for</h4>
             <h2>Marketers</h2>
@@ -162,7 +164,7 @@
         <span><img src="/images/logo_multicolor.png" alt="Productly icon"></span>
         <span><img src="/images/Productly.png" alt="Productly logo"></span> 
         </div>
-        <nav>
+        <nav class="footer">
             <ul>
                 <li>About Us</li>
                 <li>Blog</li>
@@ -175,9 +177,11 @@
                 <li>Privacy Policy</li>
                 <li>Terms of Service</li>
             </ul>
-            <input type="email" name="E-mail" id="E-mail">
-            <input type="button" value="Sign Up Now">
         </nav>
+        <div class="input">
+            <input type="email" name="E-mail" id="E-mail">
+            <input type="button" value="Sign Up Now" class="btn_orange" id="btn_footer">
+        </div>
     </footer>
 </body>
 </html>

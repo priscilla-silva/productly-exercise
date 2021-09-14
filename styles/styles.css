@@ -15,9 +15,11 @@ header {
 }
 
 .logo {
+    margin-left: -100px;
     display: flex;
     justify-content: flex-start;
     transform: scale(.8)
+    
 }
 
 .main-menu {
@@ -26,8 +28,19 @@ header {
     left: 46.43%;
     right: 28.57%;
     top: calc(50% - 28px/2 - 1px); */
+     
+}
+
+a {
     font-size: 14px;
     margin: 10px;
+    color: #2F281E;
+    text-decoration: none;
+    
+}
+
+a:hover {
+text-decoration: underline;
 }
 
 .btn {
@@ -166,3 +179,17 @@ h4 {
     font-size: 16px;
     font-weight: normal;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+}
+.input {
+    display: flex;
+    justify-content: flex-end;  
+    margin-bottom: 100px;
+    position: relative;
+}
+
