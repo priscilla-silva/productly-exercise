@@ -99,3 +99,44 @@ h1 {
     justify-content: flex-start;
 }
 
+.card__two__title {
+    font-weight: bolder;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__two__content { 
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+h3 {
+  font-size: 18px;  
+  font-weight: bolder;
+
+}
+
+.card__icon__info {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+
+.btn__orange__two { 
+    display: flex;
+    justify-content: center;
+
+}
+.card__two__icon {
+    margin: 20px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 32px;
+}
