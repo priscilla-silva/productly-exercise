@@ -136,7 +136,33 @@ h3 {
     margin: 20px;
 }
 
+.icon {
+    transform: scale(.7);
+}
+
 h2 {
     font-weight: bolder;
     font-size: 32px;
+}
+
+.check__text {
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block; 
+}
+
+.check__info {
+    display: inline-block;
+}
+
+i {
+    color: #FF9900;
+    display: inline-block;
+    transform: scale(1.5);
+   
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
 }
